@@ -1,0 +1,838 @@
+2023-03-27 22:24:51.9724||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean 123 not found in API BarcodeAPI.Exceptions.NotFoundException: Ean 123 not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 30
+   at PersonalAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-27 22:24:59.3947||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean 123 not found in API BarcodeAPI.Exceptions.NotFoundException: Ean 123 not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 30
+   at PersonalAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-27 22:33:54.1751||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean 123 not found in API BarcodeAPI.Exceptions.NotFoundException: Ean 123 not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 30
+   at PersonalAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-27 23:40:29.6893||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|One or more errors occurred. (Product not found in DB) BarcodeAPI.Exceptions.NotFoundException: Product not found in DB
+   at PersonalAPI.Services.ProductService.GetProductFromDb(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 43
+2023-03-27 23:41:55.7096||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BarcodeAPI.Controllers.Product.GetFromDB (BarcodeAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-27 23:42:32.9436||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean 123 not found in API BarcodeAPI.Exceptions.NotFoundException: Ean 123 not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 34
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-27 23:42:58.1329||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|One or more errors occurred. (Product not found in DB) BarcodeAPI.Exceptions.NotFoundException: Product not found in DB
+   at PersonalAPI.Services.ProductService.GetProductFromDb(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 43
+2023-03-27 23:44:59.9525||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product not found in DB BarcodeAPI.Exceptions.NotFoundException: Product not found in DB
+   at PersonalAPI.Services.ProductService.GetProductFromDb(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 42
+   at BarcodeAPI.Controllers.Product.GetFromDB(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 29
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:13:39.0102||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product not found in DB BarcodeAPI.Exceptions.NotFoundException: Product not found in DB
+   at PersonalAPI.Services.ProductService.GetProductFromDb(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 45
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 53
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:14:38.0828||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product not found in DB BarcodeAPI.Exceptions.NotFoundException: Product not found in DB
+   at PersonalAPI.Services.ProductService.GetProductFromDb(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 45
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 53
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:15:13.2710||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product not found in DB BarcodeAPI.Exceptions.NotFoundException: Product not found in DB
+   at PersonalAPI.Services.ProductService.GetProductFromDb(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 45
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 53
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:16:18.8816||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> Product
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[BarcodeAPI.Models.OpenFoodApiProductRequestModel, BarcodeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PersonalAPI.Services.ProductService+<GetProductFromAPI>d__3, BarcodeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> BarcodeAPI.Entities.Product AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> Product
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[BarcodeAPI.Models.OpenFoodApiProductRequestModel, BarcodeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PersonalAPI.Services.ProductService+<GetProductFromAPI>d__3, BarcodeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> BarcodeAPI.Entities.Product
+   at lambda_method24(Closure , Object , Product , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:17:49.8815||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Destination Member:
+Brand
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+String -> Brand
+System.String -> BarcodeAPI.Entities.Brand
+
+Destination Member:
+Brand
+
+   at lambda_method45(Closure , String , Brand , ResolutionContext )
+   at lambda_method44(Closure , Object , Product , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , Product , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:19:37.7066||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> Product
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Entities.Product
+
+Destination Member:
+Brand
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+String -> Brand
+System.String -> BarcodeAPI.Entities.Brand
+
+Destination Member:
+Brand
+
+   at lambda_method45(Closure , String , Brand , ResolutionContext )
+   at lambda_method44(Closure , Object , Product , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , Product , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:24:18.5603||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at lambda_method74(Closure , Object , ProductDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method74(Closure , Object , ProductDto , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:25:06.0191||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:25:29.2024||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:26:02.9950||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:30:36.4605||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean s.product.brands not found in API BarcodeAPI.Exceptions.NotFoundException: Ean s.product.brands not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 36
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 51
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:30:48.5078||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Brand -> Int32
+BarcodeAPI.Entities.Brand -> System.Int32
+
+Destination Member:
+Brand
+
+   at lambda_method45(Closure , Brand , Int32 , ResolutionContext )
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:30:52.6942||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Brand -> Int32
+BarcodeAPI.Entities.Brand -> System.Int32
+
+Destination Member:
+Brand
+
+   at lambda_method45(Closure , Brand , Int32 , ResolutionContext )
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:30:54.6906||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Type Map configuration:
+OpenFoodApiProductRequestModel -> ProductDto
+BarcodeAPI.Models.OpenFoodApiProductRequestModel -> BarcodeAPI.Models.ProductDto
+
+Destination Member:
+Brand
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Brand -> Int32
+BarcodeAPI.Entities.Brand -> System.Int32
+
+Destination Member:
+Brand
+
+   at lambda_method45(Closure , Brand , Int32 , ResolutionContext )
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , ProductDto , ResolutionContext )
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 57
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:46:29.8876||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean 123 not found in API BarcodeAPI.Exceptions.NotFoundException: Ean 123 not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 37
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 54
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 00:46:40.7462||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean 123 not found in API BarcodeAPI.Exceptions.NotFoundException: Ean 123 not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 37
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 54
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 20:19:47.4331||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Exception has been thrown by the target of an invocation. System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: Expression 'm => m.Brand.Name' must resolve to top-level member and not any child object's properties. You can use ForPath, a custom resolver on the child type or the AfterMap option instead. (Parameter 'lambdaExpression')
+   at AutoMapper.Internal.ReflectionHelper.FindProperty(LambdaExpression lambdaExpression)
+   at AutoMapper.Configuration.MappingExpression`2.ForMember[TMember](Expression`1 destinationMember, Action`1 memberOptions)
+   at BarcodeAPI.ProductMappingProfile..ctor() in H:\Programowanie\Projekty\BarcodeAPI\ProductMappingProfile.cs:line 20
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean wrapExceptions)
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at AutoMapper.MapperConfigurationExpression.AddProfile(Type profileType)
+   at AutoMapper.MapperConfigurationExpression.AddMapsCore(IEnumerable`1 assembliesToScan)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method21(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 21:02:15.4954||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Ean 4234234234rad not found in API BarcodeAPI.Exceptions.NotFoundException: Ean 4234234234rad not found in API
+   at PersonalAPI.Services.ProductService.GetProductFromAPI(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 39
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 95
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 21:04:28.3529||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product 4234234234rad not found in DB and OpenFoodAPI BarcodeAPI.Exceptions.NotFoundException: Product 4234234234rad not found in DB and OpenFoodAPI
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 98
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 21:05:26.3267||WARN|PersonalAPI.Services.ProductService|Product 4234234234rad not found in DB and OpenFoodAPI 
+2023-03-28 21:06:20.7807||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product 4234234234rad not found in DB and OpenFoodAPI BarcodeAPI.Exceptions.NotFoundException: Product 4234234234rad not found in DB and OpenFoodAPI
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 98
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 21:06:24.8569||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product 312312321 not found in DB and OpenFoodAPI BarcodeAPI.Exceptions.NotFoundException: Product 312312321 not found in DB and OpenFoodAPI
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 98
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 21:06:57.6793||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Product 5900497043182 not found in DB and OpenFoodAPI BarcodeAPI.Exceptions.NotFoundException: Product 5900497043182 not found in DB and OpenFoodAPI
+   at PersonalAPI.Services.ProductService.GetProduct(String productEAN) in H:\Programowanie\Projekty\BarcodeAPI\Services\ProductService.cs:line 98
+   at BarcodeAPI.Controllers.Product.GetFromAPI(String EAN) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\ProductController.cs:line 21
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 22:03:01.6185||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Invalid username or password BarcodeAPI.Exceptions.BadRequestException: Invalid username or password
+   at BarcodeAPI.Services.AccountService.GenerateJWT(LoginUserDto dto) in H:\Programowanie\Projekty\BarcodeAPI\Services\AccountService.cs:line 34
+   at BarcodeAPI.Controllers.AccountController.Login(LoginUserDto body) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\AccountController.cs:line 29
+   at lambda_method15(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
+2023-03-28 22:32:30.1676||ERROR|BarcodeAPI.Middleware.ErrorHandlingMiddleware|Invalid username or password BarcodeAPI.Exceptions.BadRequestException: Invalid username or password
+   at BarcodeAPI.Services.AccountService.GenerateJWT(LoginUserDto dto) in H:\Programowanie\Projekty\BarcodeAPI\Services\AccountService.cs:line 40
+   at BarcodeAPI.Controllers.AccountController.Login(LoginUserDto body) in H:\Programowanie\Projekty\BarcodeAPI\Controllers\AccountController.cs:line 29
+   at lambda_method15(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at BarcodeAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in H:\Programowanie\Projekty\BarcodeAPI\Middleware\ErrorHandlingMiddleware.cs:line 19
